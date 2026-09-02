@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Règles de confidentialité — Nadryz YT Upload</title>
+<style>
+  :root { color-scheme: light dark; }
+  body {
+    max-width: 42rem;
+    margin: 0 auto;
+    padding: 3rem 1.25rem 5rem;
+    font: 16px/1.6 system-ui, -apple-system, "Segoe UI", sans-serif;
+  }
+  h1 { font-size: 1.6rem; margin-bottom: .25rem; }
+  .sub { color: #6b7280; margin-top: 0; }
+  h2 { font-size: 1.1rem; margin-top: 2.5rem; }
+  ul { padding-left: 1.2rem; }
+  li { margin: .4rem 0; }
+  footer { margin-top: 3.5rem; font-size: .9rem; color: #6b7280; }
+</style>
+</head>
+<body>
+
+<h1>Règles de confidentialité</h1>
+<p class="sub">Application « Nadryz YT Upload ». Dernière mise à jour : 2 septembre 2026.</p>
+
+<h2>Portée</h2>
+<p>
+  Nadryz YT Upload est un outil personnel en ligne de commande. Son seul utilisateur est son auteur,
+  qui l'emploie sur sa propre chaîne YouTube. L'application n'a pas de serveur, pas de base de données
+  et pas d'utilisateurs tiers.
+</p>
+
+<h2>Données consultées</h2>
+<p>Après votre consentement Google, l'application accède à votre compte YouTube pour :</p>
+<ul>
+  <li>créer des vidéos et définir leur titre, description, tags, miniature et visibilité
+      (<code>https://www.googleapis.com/auth/youtube.force-ssl</code>) ;</li>
+  <li>lire les statistiques des vidéos publiées, en lecture seule
+      (<code>https://www.googleapis.com/auth/yt-analytics.readonly</code>).</li>
+</ul>
+<p>
+  Aucune donnée de profil, aucun contact et aucune donnée d'une autre application Google
+  n'est consultée.
+</p>
+
+<h2>Stockage</h2>
+<p>
+  Le jeton OAuth délivré par Google est enregistré en clair sur la machine locale de l'utilisateur,
+  dans son répertoire personnel, avec des permissions restreintes à ce seul compte système.
+  Il ne quitte jamais cette machine. Aucune donnée n'est transmise ailleurs que vers les API
+  de Google, et rien n'est conservé sur un serveur distant.
+</p>
+
+<h2>Partage</h2>
+<p>
+  Aucune donnée n'est vendue, louée, partagée avec un tiers, ni utilisée pour de la publicité,
+  du profilage ou l'entraînement de modèles.
+</p>
+
+<h2>Utilisation limitée</h2>
+<p>
+  L'usage des données reçues des API Google par cette application respecte la
+  <a href="https://developers.google.com/terms/api-services-user-data-policy">règle
+  relative aux données utilisateur des services d'API Google</a>, y compris ses exigences
+  d'utilisation limitée.
+</p>
+
+<h2>Révocation et suppression</h2>
+<p>
+  L'accès se révoque à tout moment depuis
+  <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>.
+  Le jeton local se supprime en effaçant le répertoire de configuration de l'application ;
+  la suppression est immédiate et définitive, aucune copie n'existant ailleurs.
+</p>
+
+<h2>Contact</h2>
+<p><a href="mailto:nadryz.pro@gmail.com">nadryz.pro@gmail.com</a></p>
+
+<footer><a href="./">← Nadryz YT Upload</a></footer>
+
+</body>
+</html>

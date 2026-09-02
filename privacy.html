@@ -28,8 +28,21 @@
 <h2>Portée</h2>
 <p>
   Nadryz YT Upload est un outil personnel en ligne de commande. Son seul utilisateur est son auteur,
-  qui l'emploie sur sa propre chaîne YouTube. L'application n'a pas de serveur, pas de base de données
-  et pas d'utilisateurs tiers.
+  Nadir Debaa, qui l'emploie sur sa propre chaîne YouTube. L'application n'a pas de serveur, pas de
+  base de données et pas d'utilisateurs tiers.
+</p>
+
+<h2>Utilisation des Services API YouTube</h2>
+<p>
+  Cette application utilise les <strong>Services API YouTube</strong>. En l'utilisant, vous acceptez
+  les <a href="https://www.youtube.com/t/terms">Conditions d'utilisation de YouTube</a>.
+  Les données reçues des API YouTube sont traitées conformément aux
+  <a href="https://policies.google.com/privacy">Règles de confidentialité de Google</a>.
+</p>
+<p>
+  L'usage des informations reçues des API Google par cette application respecte la
+  <a href="https://developers.google.com/terms/api-services-user-data-policy">règle relative aux
+  données utilisateur des services d'API Google</a>, y compris ses exigences d'utilisation limitée.
 </p>
 
 <h2>Données consultées</h2>
@@ -37,48 +50,47 @@
 <ul>
   <li>créer des vidéos et définir leur titre, description, tags, miniature et visibilité
       (<code>https://www.googleapis.com/auth/youtube.force-ssl</code>) ;</li>
-  <li>lire les statistiques des vidéos publiées, en lecture seule
+  <li>lire les statistiques de vos propres vidéos publiées, en lecture seule
       (<code>https://www.googleapis.com/auth/yt-analytics.readonly</code>).</li>
 </ul>
 <p>
   Aucune donnée de profil, aucun contact et aucune donnée d'une autre application Google
-  n'est consultée.
+  n'est consultée. Aucune donnée n'est utilisée pour de la publicité, du profilage ou
+  l'entraînement de modèles.
 </p>
 
-<h2>Stockage</h2>
+<h2>Stockage et conservation</h2>
 <p>
-  Le jeton OAuth délivré par Google est enregistré en clair sur la machine locale de l'utilisateur,
-  dans son répertoire personnel, avec des permissions restreintes à ce seul compte système.
-  Il ne quitte jamais cette machine. Aucune donnée n'est transmise ailleurs que vers les API
-  de Google, et rien n'est conservé sur un serveur distant.
+  Le jeton OAuth délivré par Google est enregistré sur la machine locale de l'utilisateur, dans son
+  répertoire personnel, avec des permissions restreintes à ce seul compte système. Il ne quitte
+  jamais cette machine. Aucune donnée n'est transmise ailleurs que vers les API de Google, et rien
+  n'est conservé sur un serveur distant.
+</p>
+<p>
+  Les données lues via les API YouTube ne sont pas stockées de façon persistante : elles sont
+  affichées puis écartées à la fin de l'exécution. Aucune métrique dérivée n'est conservée
+  au-delà des délais prévus par les Règles pour les développeurs YouTube.
+</p>
+
+<h2>Suppression des données</h2>
+<p>
+  L'accès se révoque à tout moment depuis
+  <a href="https://myaccount.google.com/permissions">la page des autorisations de votre compte
+  Google</a> (ou <a href="https://security.google.com/settings/security/permissions">security.google.com</a>).
+  Le jeton local se supprime en effaçant le répertoire de configuration de l'application ; la
+  suppression est immédiate et définitive, aucune copie n'existant ailleurs. Pour toute demande de
+  suppression, écrire à l'adresse ci-dessous : la suppression est effectuée sous 30 jours.
 </p>
 
 <h2>Partage</h2>
 <p>
-  Aucune donnée n'est vendue, louée, partagée avec un tiers, ni utilisée pour de la publicité,
-  du profilage ou l'entraînement de modèles.
-</p>
-
-<h2>Utilisation limitée</h2>
-<p>
-  L'usage des données reçues des API Google par cette application respecte la
-  <a href="https://developers.google.com/terms/api-services-user-data-policy">règle
-  relative aux données utilisateur des services d'API Google</a>, y compris ses exigences
-  d'utilisation limitée.
-</p>
-
-<h2>Révocation et suppression</h2>
-<p>
-  L'accès se révoque à tout moment depuis
-  <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>.
-  Le jeton local se supprime en effaçant le répertoire de configuration de l'application ;
-  la suppression est immédiate et définitive, aucune copie n'existant ailleurs.
+  Aucune donnée n'est vendue, louée ni partagée avec un tiers.
 </p>
 
 <h2>Contact</h2>
 <p><a href="mailto:nadryz.pro@gmail.com">nadryz.pro@gmail.com</a></p>
 
-<footer><a href="./">← Nadryz YT Upload</a></footer>
+<footer><a href="./">← Nadryz YT Upload</a> · <a href="terms.html">Conditions d'utilisation</a></footer>
 
 </body>
 </html>
